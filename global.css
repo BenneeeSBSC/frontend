@@ -1,0 +1,129 @@
+ /* GLOBAL */
+  /* You can add global styles to this file, and also import other style files */
+/* * {
+    font-size: 62.5%;
+} */
+
+/* ==== ALL BUTTONS ====== */
+.btn:focus {
+    box-shadow: none;
+  }
+  
+  /* ======= BREADCRUMBS ========= */
+  .breadcrumb {
+    background-color: transparent;
+    font-size: 14px;
+    font-family: Avenir;
+    font-weight: 500;
+    color: #979797;
+    cursor: pointer;
+  }
+  
+  .breadcrumb>li>a {
+    color: #777777;
+  }
+  
+  .breadcrumb>li {
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 500;
+    color: #253031 !important;
+    cursor: pointer;
+  }
+  
+  /* ====== CARD ======= */
+  
+  .card {
+    border-radius: 4px;
+    border: solid 1px #f4f4f4;
+  }
+  
+  .card:focus {
+    outline: none;
+  }
+  
+  .card-img {
+    height: 290px;
+  }
+  
+  .card-footer {
+    background-color: #ffffff;
+    border-top: none
+  }
+  
+  .eye-icon,
+  .heart-icon {
+    border-radius: 3px;
+    border: solid 1px #077687;
+    background-color: #ecfcfe;
+    color: #077687;
+  }
+  
+  .cart-icon {
+    border-radius: 4px;
+    background-color: #ffc857;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.42px;
+    color: #404040;
+  }
+  
+  .product-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #91a8a4;
+  }
+  
+  .description {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #979797;
+  }
+  
+  .price {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #404040;
+  }
+  
+  /* ====== STAR RATINGS ========= */
+  
+  .favorite-color {
+    color: #b9d1ff;
+  }
+  
+  .unfavorite-color {
+    color: #bcc4c9;
+  }
+  
+  /* ===== MODAL ====== */
+  .modal-header {
+    border-bottom: 0;
+  }
+  
+  .close:focus {
+    outline: none;
+  }
+  
+  /* ===== INPUT SYTLE ========== */
+  label {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.36px;
+    color: #91a8a4;
+  }
+  
+  input {
+    background-color: transparent !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0px !important;
+  }
+  
+  input:focus {
+    box-shadow: none !important;
+  }
