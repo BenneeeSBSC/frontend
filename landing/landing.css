@@ -161,6 +161,34 @@
     padding: 0rem 1rem !important;
     margin-top: 8px;
   }
+
+  .dropdown-menu-center {
+    left: 50% !important;
+    right: auto !important;
+    text-align: left !important;
+    transform: translate(-50%, 0) !important;
+    top: 40px !important;
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+}
+
+  .dropdown-menu {
+  width: 270px !important;
+  /* height: 400px !important; */
+}
+
+.btn-size{
+  width: 270px;
+}
+
+.red-drop{
+  color: #ed3833;
+  /* font-family: OpenSans; */
+  font-size: 14px;
+  font-weight: 600;
+}
   
   /* ======= FOOTER STARTS HERE ========== */
   footer {
