@@ -4,8 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     
+
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 create-account-image"></div>
+          <div class="col-lg-6 welcome-back-container">
+            <i class="fas fa-times float-right mt-5"></i>
+            <p class="welcome  mt-5">Welcome!</p>
+            <p class="create-account-text mb-5">Create a personal account by filling the form below</p>
+
+            <form>
+              <div class="form-group">
+                <label for="exampleInputFullname" class="fullname">Fullname</label>
+                <input type="text" formControlName="name" placeholder="olawale martins" class="form-control">
+              </div>
+  
+              <div class="form-group">
+                <label for="exampleInputEmail1" class="email">Email Address</label>
+                <input type="email" formControlName="email" class="form-control cog" placeholder="olawalemartins@gmail.com">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPhoneNumber" class="phonenumber">Phone Number</label>
+                <input type="tel" formControlName="phone" 
+                  class="form-control cog"  placeholder="+234806998110">
+              </div>
+  
+              <div class="form-group">
+                <label for="exampleInputPassword" class="password">Password</label>
+                <input type="password" formControlName="password" placeholder="*************" class="form-control enter-password">
+              </div>
+  
+              <div class="form-group">
+                <label for="exampleInputConfirmPassword" class="password">ConfirmPassword</label>
+                <input type="password" formControlName="password_confirmation" placeholder="*************" class="form-control enter-password">
+              </div>
+  
+              
+  
+              <div class="form-group">
+                
+              </div>
+  
+              <div class="login-buttons mb-4 mt-5">
+                <button class="btn cancel mr-2 px-4" >Cancel</button>
+                <button class="btn create-account-button">CreateAccount</button>
+              </div>
+            </form>
+
+
+            <p class="create-account2">Already have an account? <span data-toggle="modal" data-target=".bd-example-modal-xl" class="create-account-link ">Sign In Here</span></p>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
