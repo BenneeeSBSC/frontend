@@ -89,12 +89,15 @@ ml-16 {
   
   .enter-email:active,
   .enter-password:active {
-    width: 448px;
-    height: 40px;
-    border-radius: 3px;
-    box-shadow: 3px 4px 20px 0 rgba(237, 56, 51, 0.25);
-    /* border: solid 1px #ed3833; */
+    
+    border-radius: 3px !important;
+    border: solid 1px #ed3833 !important;
   }
+
+  .form-control:focus {
+    border: solid 1px #ed3833 !important;
+    box-shadow: 3px 4px 20px 0 rgba(237, 56, 51, 0.25) !important;
+}
   
   .remember-me {
     letter-spacing: 0.42px;
@@ -167,8 +170,7 @@ ml-16 {
     letter-spacing: 0.42px;
     color: #212529;
   }
-  
-  /* ========= FONT AWESOME ICONS ======= */
+
   .fa-times {
     color: #ffffff;
     width: 24px;
@@ -188,5 +190,7 @@ ml-16 {
   .account-dropdown{
   color: #4EABF8;
   }
+
+ 
   
  
