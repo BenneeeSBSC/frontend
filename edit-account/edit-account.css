@@ -1,0 +1,220 @@
+    body{
+        background-color: #f4f4f4 !important;
+    }
+
+    /* =========== BREADCRUMB ============= */
+    .breadcrumb {
+      background-color: transparent;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    
+    .breadcrumb > li > a{
+      color: #777777;
+    }
+    
+    .breadcrumb > li {
+      color: #212529;
+    }
+    
+    /* ========== PAGE TITLE ========= */
+    .edit-profile {
+      height: 52px;
+      background-color: #232f3f;
+      border-radius: 5px;
+     
+    }
+    
+    .edit-profile-text {
+      color: #ffffff;
+      font-size: 18px;
+      font-family: PlayfairDisplay;
+    }
+    
+  
+    /* ======== CARD ========= */
+
+    .card-body{
+      border-radius: 5.3px !important;
+      box-shadow: 3px 4px 25px 0 rgba(119, 119, 119, 0.15) !important;
+      background-color: #ffffff !important;
+    }
+
+    
+    
+    .stage-data {
+      color: #b2acac;
+    }
+    
+    .stage-data:hover {
+      cursor: pointer;
+    }
+
+    .input-group-text{
+      background-color: #ffffff;
+    }
+    
+    .breadcrumb .active {
+      color: #000000;
+      font-weight: 600;
+     
+    }
+
+    .information-text{
+      font-family: OpenSans;
+      font-size: 18px;
+      font-weight: 600;
+      color: #212529;
+      border-bottom: 1px solid #777777;
+      padding-left: 0px !important;
+      border-right: -20px !important;
+      
+      
+      
+    }
+
+ 
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link  .active {
+      color: #000000;
+      font-weight: 600;
+      border-bottom: 1px solid #777777;
+    }
+
+    .change-passowrd,
+    .personal-information{
+      font-family: PlayfairDisplay;
+      font-size: 18px;
+      
+    }
+
+    
+
+    .nav-pills .nav-link {
+      border-radius: 0px !important;
+  }
+
+    .upload-photo{
+      width: 63.3px;
+      height: 56px;
+      object-fit: contain;
+    }
+
+
+    .upload-photo-background{
+        width: 186px;
+        height: 186px;
+        border-radius: 3px;
+        background-color: #f4f4f4;
+    }
+
+
+    .edit {
+      letter-spacing: 0.37px;
+      color: #93278f;
+      cursor: pointer;
+    }
+
+    
+
+    .label-name {
+      font-family: OpenSans;
+      font-size: 14px;
+      letter-spacing: 0.42px;
+      color: #212529;
+    }
+
+
+    /* ======== BUTTONS ======== */
+    .save {
+      border-radius: 3px;
+      border: solid 1px #f2902f;
+      background-color: #f2902f;
+      letter-spacing: 0.45px;
+      color: #ececec;
+      width: 203.5px;
+    }
+
+    label {
+        display: inline-block;
+        margin-bottom: .5rem;
+    }
+
+   
+    button, input {
+        overflow: visible;
+    }
+    
+
+    .form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: #ed3833 !important;
+        outline: 0;
+        box-shadow: 3px 4px 20px 0 rgba(237, 56, 51, 0.25);
+    }
+
+    p {
+      font-family: Lato;
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 5px;
+    }
+    .hoverable{
+      position: relative;
+      display: block;
+      cursor: pointer;
+      height: 158px;
+    }
+    .hoverable .hover-text{
+      position: absolute;
+      display: none;
+      top: 50%;
+      left:  50%;
+      transform: translate(-50%, 100%);   
+      transition: transform .5s;
+      z-index: 2;
+    }
+
+    .hoverable .background{
+      position: absolute;
+      display: none;
+      top: 0;
+      left:  0;
+      bottom: 0;
+      right: 0;
+      background-color:rgba(255, 255, 255, 0.5);
+      pointer-events: none;
+      z-index: 1;
+    }
+    .hoverable:hover .hover-text{
+      display: block;
+      transform: translate(-50%, -50%);
+      opacity: 1;
+    }
+    .hoverable:hover .background{
+      display: block;
+    }
+
+    #fileInput{
+      display: none;
+    }
+
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+      color: #000000; 
+      background-color: #ffffff;
+    }
+
+
+
+
+
+
+
+
+
+
+

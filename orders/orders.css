@@ -1,0 +1,48 @@
+
+/* ======= BREADCRUMBS ============ */
+.breadcrumb {
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .breadcrumb > li > a{
+    color: #777777;
+  }
+  
+  .breadcrumb > li {
+    color: #212529;
+  }
+
+  /*=========== BUTTONS ==========*/
+  .track-order {
+    border-radius: 3px;
+    border: solid 1px #777777;
+  }
+
+  /* ======= MAIN SECTION =========== */
+.status {
+    color: #c4c4c4;
+}
+
+.location {
+    color: #f2902f;
+}
+
+/* ======= FONT AWESOME ICONS ======== */
+.remove-action {
+    color: #ed3833;
+  }
+
+  /* ============= PAGINATION ============ */
+  .pagination__button {
+    border-radius: 3px;
+    border: solid 1px #e1e1e1;
+    background-color: #ffffff;
+    color:  #212529;
+    font-family:  'Open Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    cursor: pointer;
+  }

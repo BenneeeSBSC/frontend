@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="edit-account.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+
+    <div class="row mt-2 mx-0">
+        <!-- BREADCRUMB STARTS HERE -->
+        <div class="col-12">
+          <section class="container d-none d-md-block">
+            <div class="breadcrumbs">
+              <div class="row">
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a>Home</a></li>
+                    <li class="breadcrumb-item"><a>Settings</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Edit Account Information</li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- BREADCRUMB ENDS HERE  -->
+      </div>
+      
+      <div class="container">
+        <div class="row pb-3 px-3">
+          <div class="col-lg-12 p-0">
+            <div class="edit-profile">
+              <h3 class="edit-profile-text  ml-3 pt-3">Edit Account Information</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="card mb-5">
+              <div class="card-body">
+                <div class="container-fluid pt-4">
+                  <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                      <div class="row">
+
+                        <ul class="nav nav-pills mx-auto mb-3" id="pills-tab" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link personal-information stage-data active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Personal Information</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link change-passowrd stage-data" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Change Password</a>
+                          </li>
+                        </ul>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"> <div class="signup3 mt-3 mx-0 ">
+                    <div class="container signup-container">
+                      <div class="row">
+                        <div class="col-12 bg-white signup3-container px-0 mb-5">
+                          <div class="col-lg-6 offset-lg-3 px-0 py-5">
+                            <div class="col-12">
+                              <form class="form">  
+                                <div class="upload-photo-background mx-auto justify-items-center pt-5">
+                                  <label class="hoverable" for="fileInput">
+                                    <img class="upload-photo align-item-center d-block mx-auto " src="../assets/customer/Photo.svg">
+                                    <div class="hover-text">upload picture</div>
+                                    <div class="background"></div>
+                                  </label>
+                                  <input id="fileInput" type='file'>
+                                </div>
+                                <br/>
+                                <div class="form-row mb-4">
+                                  <div class="col">
+                                    <label for="fullname" class="label-name">FullName</label>
+                                    <input type="text" class="form-control"  required>
+                                  </div>
+                                </div>
+                                <div class="form-row mb-4">
+                                  <div class="col-sm-6">
+                                    <label for="emailAddress" class="label-name">Email Address</label>
+                                    <input type="email" class="form-control"  required>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <label for="telephone" class="label-name">Telephone</label>
+                                    <input type="text" class="form-control"  required>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="container mb-3  information-text mx-3  mt-5">Change Billing Information</div>
+                                  
+                                  <div class="col-12">
+                                    <div class="form-row mb-4">
+                                      <div class="col-lg-8">
+                                        <label for="billingAddress" class="label-name">Address</label>
+                                        <input type="text" class="form-control" required>
+                                      </div>
+                                      <div class="col-lg-4">
+                                        <label for="billingInformationZip" class="label-name">Zip</label>
+                                        <input type="text" class="form-control"  required>
+                                      </div>
+                                    </div>
+                                    <div class="form-row mb-4">
+                                      <div class="col-lg mt-2">
+                                        <label for="country" class="label-name">Country*</label>
+                                        <select class="form-control" required>
+                                          <option>Nigeria</option>
+                                        </select>
+                                      </div>
+                                      <div class="col-lg mt-2">
+                                        <label for="billingInformationCity" class="label-name">City</label>
+                                        <input type="text" class="form-control"  required>
+                                      </div>
+                                    </div>
+                                    <div class="form-row mb-4">
+                                      <div class="col-6">
+                                        <label for="state" class="label-name">State*</label>
+                                        <select id="state" class="form-control" required>
+                                          <option>Lagos State</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                        <div class="container mb-3 information-text mx-3 mt-5">Change Shipping Information</div>
+
+                                        <div class="col-12">
+                                          <div class="form-row mb-4">
+                                            <div class="col">
+                                              <label for="fullname" class="label-name">Fullname</label>
+                                              <input type="text" class="form-control" id="fullname" required>
+                                            </div>
+                                          </div>
+                                          <div class="form-row mb-4">
+                                            <div class="col-8">
+                                              <label for="shippingAddress" class="label-name">Address</label>
+                                              <input type="text" class="form-control" id="shippingAddress" required>
+                                            </div>
+                                            <div class="col-4">
+                                              <label for="shippingInformationZip" class="label-name">Zip</label>
+                                              <input type="text" class="form-control" id="shippingInformationZip" required>
+                                            </div>
+                                          </div>
+                                          <div class="form-row mb-4">
+                                            <div class="col">
+                                              <label for="country" class="label-name">Country*</label>
+                                              <select id="country" class="form-control" required>
+                                                <option value="0">Select Country</option>
+                                              </select>
+                                            </div>
+                                            <div class="col">
+                                              <label for="shippingInformationCity" class="label-name">City</label>
+                                              <input type="text" class="form-control" id="shippingInformationCity" required>
+                                            </div>
+                                          </div>
+                                          <div class="form-row mb-4">
+                                            <div class="col-6">
+                                              <label for="state" class="label-name">State*</label>
+                                              <select id="state" class="form-control" required>
+                                                <option value="0">Select State</option>
+                                              </select>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-12">
+                                          <div class="form-row mb-4 mt-5">
+                                            <div class="col">
+                                              <label for="reEnterPassword" class="label-name"> Enter Password</label>
+                                              <input type="password" placeholder="**********" class="form-control" id="reEnterPassword" required>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                <button class="text-center save d-block mx-auto px-5 py-2">Save</button>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><div class="container">
+                <div class="row">
+                  <div class="col-lg-6 offset-lg-3">
+                    <div class="col-12 mt-5">
+                      <div class="form-row">
+                        <label for="enterCurrentPassword" class="label-name">Enter Current Password</label>
+                        <div class="input-group mb-3">
+                          <input type="password" placeholder="**********" class="form-control"  name="old_password"
+                            id="enterCurrentPassword" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                          <div class="input-group-append">
+                            <button class="input-group-text" id="basic-addon2"><i class="fa fa-eye-slash" aria-hidden="true"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                    <div class="col-12">
+                      <div class="container information-text mb-4 mt-5">Change Password</div>
+                      <form>
+                        <div class="form-row mb-4">
+                          <div class="col">
+                            <label for="newPassword" class="label-name">Enter New Password*</label>
+                            <input type="password" placeholder="**********" class="form-control" required>
+                          </div>
+                        </div>
+                        <div class="form-row mb-4">
+                          <div class="col">
+                            <label for="confirmPassword" class="label-name">Confirm New Password*</label>
+                            <input type="password" placeholder="**********" class="form-control"  
+                              name="confirmPassword" id="confirmPassword" required>
+                          </div>
+                        </div>
+                        <button type="submit"  class="btn d-block mt-5 mb-5 save mx-auto">Save New Password</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div></div>  
+              </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
